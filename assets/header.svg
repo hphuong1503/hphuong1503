@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Phuong Phung — Backend Engineer</title>
+<desc id="desc">Backend engineering and distributed systems. A navy banner with connected service nodes in teal and blue.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1423"/><stop offset="1" stop-color="#152b3c"/></linearGradient>
+<linearGradient id="line"><stop stop-color="#56dbc7"/><stop offset="1" stop-color="#78a9ff"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#8299ac" opacity=".16"/></pattern>
+</defs>
+<rect width="1200" height="340" rx="20" fill="url(#bg)"/>
+<rect x="720" width="480" height="340" rx="20" fill="url(#grid)"/>
+<path d="M48 58h42" stroke="#56dbc7" stroke-width="4" stroke-linecap="round"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="106" y="64" fill="#8ba9bb" font-size="15" letter-spacing="3">BACKEND ENGINEERING</text>
+<text x="48" y="148" fill="#f3f7fc" font-size="62" font-weight="700" letter-spacing="-2">Phuong Phung<tspan fill="#56dbc7">.</tspan></text>
+<text x="51" y="193" fill="#afc1d3" font-size="23">Correctness. Resilience. Performance.</text>
+<rect x="48" y="239" width="164" height="38" rx="19" fill="#16383d" stroke="#2a6468"/>
+<text x="130" y="264" text-anchor="middle" fill="#83e5d7" font-size="15">TypeScript / Node.js</text>
+<rect x="225" y="239" width="72" height="38" rx="19" fill="#192e46" stroke="#345273"/>
+<text x="261" y="264" text-anchor="middle" fill="#adcaff" font-size="15">AWS</text>
+<rect x="310" y="239" width="184" height="38" rx="19" fill="#192e46" stroke="#345273"/>
+<text x="402" y="264" text-anchor="middle" fill="#adcaff" font-size="15">Distributed Systems</text>
+</g>
+<g fill="none" stroke="url(#line)" stroke-width="2" opacity=".55">
+<path d="M803 103h64q22 0 22 22v44h46M803 247h64q22 0 22-22v-56M1007 169h38q22 0 22-22v-44h42M1067 147v78q0 22 22 22h20"/>
+<circle cx="971" cy="169" r="66" stroke-dasharray="3 9" opacity=".5"/>
+</g>
+<g fill="#15283b" stroke="#456481" stroke-width="1.5">
+<rect x="751" y="79" width="52" height="48" rx="12"/><rect x="751" y="223" width="52" height="48" rx="12"/>
+<rect x="935" y="133" width="72" height="72" rx="18" stroke="#56dbc7"/>
+<rect x="1109" y="79" width="44" height="48" rx="12"/><rect x="1109" y="223" width="44" height="48" rx="12"/>
+</g>
+<g fill="#78a9ff"><circle cx="777" cy="103" r="5"/><circle cx="777" cy="247" r="5"/><circle cx="1131" cy="103" r="5"/><circle cx="1131" cy="247" r="5"/></g>
+<path d="m960 158-11 11 11 11m22-22 11 11-11 11m-8-26-7 32" fill="none" stroke="#7be5d5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="889" cy="169" r="4" fill="#56dbc7"/><circle cx="1067" cy="169" r="4" fill="#78a9ff"/>
+<rect x="48" y="318" width="1104" height="2" rx="1" fill="url(#line)" opacity=".35"/>
+</svg>
