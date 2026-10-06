@@ -31,53 +31,54 @@ I build backend services with a focus on **transactional correctness**, **asynch
 </p>
 
 **On AWS:** Lambda · SQS · DynamoDB Streams · Step Functions · ECS · CDK  
-**In my projects:** Java / Spring Boot · Python / Django · k6  
+**In my projects:** Go · Java · TypeScript · Python · AI-assisted workflows  
 **Currently studying:** Go · distributed systems · network protocols
 
 ### Selected engineering projects
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/hphuong1503/FlashSale">01 · FlashSale</a></h3>
-<p><b>Getting concurrent purchases right.</b></p>
-<p>Conditional stock reservation, duplicate-purchase constraints, balance deduction, and a transactional outbox. Includes concurrency test cases with Testcontainers.</p>
-<p><code>Java</code> <code>Spring Boot</code> <code>PostgreSQL</code></p>
-<p><a href="https://github.com/hphuong1503/FlashSale/blob/main/src/main/java/com/example/FlashSale/service/PurchaseService.java">Purchase flow →</a> · <a href="https://github.com/hphuong1503/FlashSale/blob/main/src/test/java/com/example/FlashSale/service/PurchaseServiceConcurrentTest.java">Tests →</a></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/hphuong1503/Chat-Scale">02 · Chat-Scale</a></h3>
-<p><b>Exploring real-time message delivery.</b></p>
-<p>A chat backend experiment with asynchronous message persistence and WebSocket delivery. Includes architecture decision records and a k6 load-test script.</p>
-<p><code>Python</code> <code>Django</code> <code>Celery</code></p>
-<p><a href="https://github.com/hphuong1503/Chat-Scale/tree/develop/ADR">Design decisions →</a> · <a href="https://github.com/hphuong1503/Chat-Scale/blob/develop/k6-test.js">Load test →</a></p>
+<td colspan="2" valign="top">
+<h3><a href="https://github.com/hphuong1503/mit-6.5840-distributed-systems">01 · MIT 6.5840 Distributed Systems Labs</a></h3>
+<p><b>Coordination, concurrency, and failure recovery.</b></p>
+<p>Independent study using MIT course materials. Current work covers MapReduce task scheduling, worker failure recovery, and atomic file publication; key/value and consensus labs form the ongoing learning roadmap.</p>
+<p><code>Go</code> <code>MapReduce</code> <code>RPC</code></p>
+<p><a href="https://github.com/hphuong1503/mit-6.5840-distributed-systems/tree/master/src/mr">MapReduce implementation →</a> · <a href="https://github.com/hphuong1503/mit-6.5840-distributed-systems">Progress & design notes →</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/hphuong1503/metric-tracking">03 · Metric Tracking</a></h3>
-<p><b>Keeping API responsibilities clear.</b></p>
-<p>A layered metric-tracking API with distance and temperature conversion strategies, Swagger documentation, and a Docker Compose setup.</p>
-<p><code>TypeScript</code> <code>Express</code> <code>TypeORM</code></p>
-<p><a href="https://github.com/hphuong1503/metric-tracking/tree/main/src">Explore the code →</a></p>
+<h3><a href="https://github.com/hphuong1503/flyio-distributed-systems">02 · Fly.io / Maelstrom</a></h3>
+<p><b>Distributed algorithms through hands-on challenges.</b></p>
+<p>Go implementations for echo, unique ID generation, and broadcast. The broadcast implementation explores batched gossip, message deduplication, and acknowledgement tracking.</p>
+<p><code>Go</code> <code>Maelstrom</code> <code>Gossip</code></p>
+<p><a href="https://github.com/hphuong1503/flyio-distributed-systems/blob/main/maelstrom-broadcast/main.go">Broadcast implementation →</a></p>
 </td>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/hphuong1503/mit-6.5840-distributed-systems">04 · Distributed Systems Lab</a></h3>
-<p><b>Learning how systems handle failure.</b></p>
-<p>Independent study using MIT 6.5840 course materials, starting with MapReduce coordination, task scheduling, and worker failure recovery.</p>
-<p><code>Go</code> <code>MapReduce</code> <code>RPC</code></p>
-<p><a href="https://github.com/hphuong1503/mit-6.5840-distributed-systems">Follow the learning →</a></p>
+<h3><a href="https://github.com/hphuong1503/multi-agent-book-translation-framework">03 · AI Translation & Publishing</a></h3>
+<p><b>AI-assisted workflows with explicit quality checks.</b></p>
+<p>Agent role prompts and Python tooling for document extraction, translation workflow support, terminology management, and HTML, DOCX, and EPUB generation. Includes publication validation and translation audit scripts.</p>
+<p><code>Python</code> <code>AI workflows</code> <code>Document QA</code></p>
+<p><a href="https://github.com/hphuong1503/multi-agent-book-translation-framework/tree/main/prompts">Agent prompts →</a> · <a href="https://github.com/hphuong1503/multi-agent-book-translation-framework/tree/main/src">Pipeline tools →</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/hphuong1503/redis-typescript">04 · Build Redis</a></h3>
+<p><b>Learning network and storage fundamentals.</b></p>
+<p>An early-stage CodeCrafters learning project in TypeScript. Exploring TCP server behavior and working toward Redis protocol parsing and key/value command handling.</p>
+<p><code>TypeScript</code> <code>TCP</code> <code>In progress</code></p>
+<p><a href="https://github.com/hphuong1503/redis-typescript">Follow the implementation →</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/hphuong1503/kafka-java">05 · Build Kafka</a></h3>
+<p><b>Learning binary protocols from the wire up.</b></p>
+<p>An early-stage CodeCrafters learning project in Java. Initial request/response handling explores correlation IDs and API-version errors; further broker functionality is in progress.</p>
+<p><code>Java</code> <code>TCP</code> <code>In progress</code></p>
+<p><a href="https://github.com/hphuong1503/kafka-java">Follow the implementation →</a></p>
 </td>
 </tr>
 </table>
-
-<details>
-<summary><b>Also on my workbench — protocol fundamentals</b></summary>
-<br />
-
-Exploring the CodeCrafters [Redis in TypeScript](https://github.com/hphuong1503/redis-typescript) and [Kafka in Java](https://github.com/hphuong1503/kafka-java) challenges. Both are early-stage learning projects.
-
-</details>
 
 ---
 
